@@ -1,0 +1,56 @@
+.modal.fade:not(.in).bottom .modal-dialog {
+  -webkit-transform: translate3d(0, 125%, 0!important);
+  transform: translate3d(0, 125%, 0)!important;
+}
+
+.modal-content-custom{
+    border-radius:0;
+    height:100vh;
+    width:100vw;
+    margin:0;
+    padding:0;
+}
+.modal-body-custom{
+  margin:0;
+  padding:0;
+}
+
+.addContentModalStyle{
+  margin:0;
+  padding:0;
+  border-radius:0;
+}
+.btn-cancel-add-location{
+  background: none;
+  border:0;
+  float:right;
+  width:20%;
+  display: inline-block;
+  color:#49B4CC;
+}
+.turtle-popup{
+   height: 80px;
+   width:80px;
+   margin:0 auto;
+   display: block;
+
+}
+.powered-by-google{
+  font-family: sans-serif typeface;
+  display:table;
+  margin:0 auto;
+  margin-top:15px;
+  color:gray;
+  font-size: 14px;
+  font-weight: normal;
+
+}
+.bold{
+  font-weight: bold;
+}
+.hr1{
+  margin:0;
+  padding:0;
+  margin-top:40px;
+
+}

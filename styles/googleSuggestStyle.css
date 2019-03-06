@@ -1,0 +1,27 @@
+.sc-ifAKCX.cnyXj{
+  background: transparent;
+
+}
+.search-box-container{
+  width:75%;
+  display: inline-block;
+  float:left;
+  background:#f9f9f9;
+  padding-top:3px;
+  padding-bottom:3px;
+  border-radius: 5px;
+  margin-left: 5%;
+}
+.google-searchbox{
+  margin-left: 10%;
+  width:90%;
+  border:none;
+  background: transparent;
+}
+.search-icon{
+  position: absolute;
+  margin-top: 5px;
+  margin-left:5px;
+  color:gray;
+
+}

@@ -1,0 +1,81 @@
+.modal-title{
+  font-size:40px;
+  font-family: 'Dancing Script', cursive;
+
+
+}
+.fbLoginModalStyle{
+      margin-top:100px;
+      border:0px;
+      box-shadow: 0 4px 8px 0 rgba(200, 200,200 , 0.5), 0 6px 20px 0 rgba(200, 200, 200, 0.5);
+}
+.modal-content{
+  border:0;
+}
+/*login with facebook btn style */
+.kep-login-facebook.metro{
+  border-radius: 5px !important;
+  height: 35px;
+  padding:0 !important;
+  width:250px;
+  text-transform: capitalize;
+  font-family:arial!important;
+  margin-top:5px;
+}
+
+.btn-cancel-login{
+
+}
+
+.dont_post_style{
+  font-size: 12px;
+  margin:0 auto;
+  display: table;
+  margin-top:5px;
+}
+.modal-header{
+  padding:0;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:5px;
+
+}
+.fbpopup-content{
+  text-align:center;
+
+}
+.fbpopup-heading{
+  font-weight: bold;
+  font-size: 18px;
+}
+.turtle-popup{
+   height: 80px;
+   width:80px;
+   margin:0 auto;
+   display: block;
+
+}
+.turtleStyle{
+  width:150px;
+  height:150px;
+}
+.fbLogin-btn{
+
+  display: table;   /*to center the button*/
+  margin: 0 auto;
+
+}
+
+.btn-cancel-login{
+  background: none;
+  margin:0 auto;
+  display:block;
+  font-size:12px;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait){
+  .modal-title{
+    font-size:35px;
+  }
+}

@@ -1,0 +1,185 @@
+
+.insta-img-container{
+
+  /*border:1px solid red;*/
+  padding:0;
+  margin:0;
+}
+.selectedImg{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width:40px;
+  height:40px;
+}
+.row{
+  padding:0;
+  margin:0;
+
+}
+
+.insta-img-subcontainer{
+  padding:0;
+  margin:0;
+  height:300px;
+
+}
+
+.insta-img-style{
+  height:300px;
+}
+
+.img-header{
+  height:25px;
+  background: white;
+  color:white;
+  text-align: right;
+  padding-right:5px;
+  border-top: 1px solid black;
+}
+
+.roamer-header-instagallery{
+  height: 100px;
+
+  padding:0;
+  margin:0;
+  margin-bottom:10px;
+  padding-top:8px;
+}
+.logo-style-instagallery{
+    width:20%;
+    height:30px;
+    margin:0 auto;
+    display:block;
+}
+
+.ig-continue-btn{
+  border:0;
+  background: none;
+  color:gray;
+  float:right;
+}
+.ig-header-content{
+  margin:0 auto;
+  display: table;
+  margin-top:35px;
+  color:gray;
+}
+.ig-header-content-1{
+  margin:0 auto;
+  display: table;
+  margin-top:35px;
+  color:gray;
+}
+
+.margin-padding-null{
+    margin:0;
+    padding:0;
+}
+
+.loading{
+  margin:0 auto;
+  display:block;
+
+}
+
+.blog-url-heading{
+  margin:0 auto;
+  display: table;
+  color:gray;
+  margin-top:150px;
+}
+
+.blog-url-input{
+  margin:0 auto;
+  display:block;
+  width:80%;
+  margin-top:5px;
+  border-radius:7px;
+  border:1px solid #49B4CC;
+}
+
+.blog-continue-btn{
+  background: none;
+  border:none;
+  float:right;
+  margin-right:5%;
+  text-decoration: underline;
+  color:gray;
+  margin-top:5px;
+}
+
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+  .insta-img-style{
+    height:90px;
+    width:100%;
+
+  }
+  .insta-img-container{
+    height: 90px;
+  }
+
+
+  .insta-img-subcontainer{
+    padding:0;
+
+    height:90px;
+
+  }
+
+  .logo-style-instagallery{
+      width:30%;
+      height:18px;
+      margin:0 auto;
+      display:block;
+
+  }
+
+  .selectedImg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width:25px;
+    height:25px;
+  }
+
+}
+
+/* for landscape mode*/
+@media only screen and (max-width: 768px) and (orientation:landscape) {
+  .insta-img-style{
+    height:150px;
+    width:100%;
+
+  }
+  .selectedImg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width:25px;
+    height:25px;
+  }
+
+  .insta-img-container{
+    height:150px;
+
+  }
+
+  .insta-img-subcontainer{
+    padding:0;
+    margin:0;
+    height:150px;
+
+  }
+  .logo-style-instagallery{
+      width:30%;
+      height:22px;
+      margin:0 auto;
+      display:block;
+
+  }
+
+
+}
+/*Header in app.js===============================================================================*/

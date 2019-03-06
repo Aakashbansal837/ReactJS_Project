@@ -1,0 +1,122 @@
+body {
+
+
+
+    background-position: fixed;
+
+
+    padding:0;
+    min-height:90%;
+
+}
+
+
+.redirect_to_policy{
+  display:none;
+}
+.centerMe {
+    margin: auto;
+    display: block;
+}
+.LogoStyle {
+    height: 100px;
+    padding-top:10px;
+}
+.turtleStyle {
+    height: 180px;
+    width: 180px;
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+}
+.subheading {
+    color : white;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top:10px;
+}
+.turtle-btn:hover{
+
+}
+.landingPageMainDiv{
+    background:transparent;
+    margin:0;
+    width:100%;
+    height:100%;
+    padding-top:20px;
+
+    /*background: url("../Landing_page_background.png") !important;*/
+    background: linear-gradient(#0F2B52, #74728A);
+}
+
+
+.btn-instalogin{
+  background: #11ABAB;
+  color:white;
+  font-size: 16px;
+  padding-left: 30px;
+  padding-right:30px;
+
+}
+.btn-instalogin:hover{
+  background:#0D888;
+  color:white;
+}
+.btn-roamerlogin{
+  background: #052248;
+  color:white;
+  font-size:16px;
+  padding-left: 25px;
+  padding-right:25px;
+  width:240px;
+
+}
+.sidetext{
+  text-align: center;
+  color:white;
+  margin-bottom: 16px;
+  font-size:14px;
+
+}
+.sidetext1{
+  text-align: center;
+  color:white;
+  margin-top:30px;
+  margin-bottom: -8px;
+
+}
+.sidetext2{
+  text-align: center;
+  color:white;
+  font-size: 14px;
+}
+.btn-roamerlogin:hover{
+  background: #02244C;
+  color:white;
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait){
+  .LogoStyle {
+      height: 60px;
+      padding-top:0px;
+  }
+  .landingPageMainDiv{
+
+
+      overflow: visible;
+
+  }
+
+}
+@media only screen and (max-width: 768px) and (orientation: landscape){
+  .LogoStyle {
+      height: 60px;
+      padding-top:0px;
+  }
+  .landingPageMainDiv{
+
+    height: 100%;
+      overflow: visible;
+
+  }
+
+}

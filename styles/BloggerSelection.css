@@ -1,0 +1,90 @@
+.selected-img-header{
+  padding:0;
+  margin:0;
+  height:45px;
+
+  padding-top:8px;
+}
+.added-content{
+  margin:5px;
+  text-align:justify;
+  color:gray;
+
+}
+
+.post-btn{
+  width:16%!important;
+  margin-left: 1%;
+  height:40px;
+  background: none;
+  color:gray;
+  border:1px solid lightgray;
+}
+.post-btn:focus{
+  outline-color: red;
+}
+.addContentInput{
+  width:80%;
+  margin-left:2%;
+  border-radius: 20px;
+  height: 40px;
+    border:1px solid lightgray;
+    padding-left:15px;
+    padding-right:15px;
+}
+.addContentInput:focus{
+  border-color:gray;
+  outline:0;
+}
+.addContentForm{
+  padding-top:10px;
+}
+.additional-div{
+  display: none;
+  height:100vh;
+  width:10vw;
+}
+.roamerOnly{
+  width:30%;
+  height:18px;
+  margin:0 auto;
+  display:block;
+}
+.selected-content-container{
+  height:auto;
+
+  padding:0;
+  margin:0;
+}
+.ig-header-content{
+  margin:0 auto;
+  display:table;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.selected-img-style{
+  margin:0;
+  padding:0;
+  height:auto;
+  width:100%;
+
+}
+
+.add-location-btn{
+  background:none;
+  border:0;
+  color:gray;
+}
+.carousel-custom{
+  margin:0;
+  padding:0;
+}
+.padding-null{
+  margin:0;
+  padding:0;
+}
+.break-style-1{
+  margin:-10px;
+  padding:0;
+
+}

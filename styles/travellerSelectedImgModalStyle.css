@@ -1,0 +1,133 @@
+.modal.fade:not(.in).bottom .modal-dialog {
+  -webkit-transform: translate3d(0, 125%, 0!important);
+  transform: translate3d(0, 125%, 0)!important;
+}
+
+.modal-content-custom-tsim{
+    border-radius:0;
+    min-height:100vh;
+    width:100vw;
+    margin:0;
+    padding:0;
+}
+.modal-body-custom-tsim{
+  margin:0;
+  padding:0;
+}
+.tsim_roamer_only{
+  width:30%;
+  height:18px;
+
+
+  margin:0 auto;
+  margin-top:5px;
+  display:block;
+}
+.tsim_subheading_container{
+  margin-top: 15px;
+  width:100%;
+  height:50px;
+}
+.blogger_pic_tsim{
+  height:40px;
+  width:40px;
+  background: lightgray;
+  float:left;
+  margin-top:3px;
+  border-radius: 50%;
+  margin-left:10px;
+}
+.bloggerName_tsim{
+  margin-left: 12px;
+  margin-top: 12px;
+  float:left;
+  color:gray;
+}
+.visit-blog-btn{
+  float:right;
+  border:0;
+  padding-left:30px;
+  padding-right:30px;
+  margin-right:5px;
+  margin-top:12px;
+  border-radius:3px;
+
+  opacity:0.5;
+  background-color:#DBDBDB;
+}
+.selectedImgContainer{
+  margin:0;
+  padding: 0;
+  margin-top: 10px;
+
+}
+.locationTag-tsim{
+  margin:0;
+  padding:0;
+  margin-left:3px;
+  color:gray;
+
+}
+.selectedImg-tsim{
+  width:100%;
+  height:auto;
+  position: absolute;
+}
+.imgDescription-tsim{
+  color:gray;
+  margin-top:5px;
+  padding-left:12px;
+  padding-right: 12px;
+  text-align: justify;
+
+}
+.savePin-tsim{
+    width:40px;
+    height:40px;
+    position: absolute;
+    bottom:0;
+    right:0;
+
+}
+.arrow-back-style{
+
+}
+.back-btn{
+  border:0;
+  background: none;
+  position: absolute;
+  float:right;
+  right:0;
+  margin-right: 15px;
+  margin-top:5px;
+  color:gray;
+}
+.back-btn:focus{
+  outline:0;
+}
+.btn-pin{
+    position:absolute;
+    bottom:8px;
+    right:8px;
+    height:45px;
+    width:45px;
+    background: none;
+    border:0;
+}
+.btn-pin:focus{
+  outline: 0;
+}
+.onlyImgContainer-tsim{
+  margin:0;
+  padding:0;
+  height:400px;
+  position: relative;
+}
+
+
+
+.travellerSelectedImgModalStyle{
+  margin:0;
+  padding:0;
+  border-radius:0;
+}
